@@ -136,3 +136,40 @@ for example height: 100hv; -- would allow the screen height be the full screen h
 that paired with "flex-grow" in the body section fills the full webpage, allowing the body section to grow instead of whitespace under the footer. 
 
 overflow-y: scroll; would allow a scrollable body instead of a scrollable page. 
+
+
+**After Hours Notes**
+
+For Flexbox purposes, the x-axis (horizontal) is the main axis and the y-axis (vertical) is the cross axis.
+
+display: flex; -- will display on the main axis unless flex-direction is set to column.
+
+justify-content aligns items on the main axis.
+1. flex-start
+2. flex-end
+3. center
+4. space-between
+5. space-around
+6. space-evenly
+
+
+align-items aligns items on the cross axis.
+1. flex-start
+2. flex-end
+3. center
+4. baseline (the text is align)
+
+flex-wrap will allow wrapping so the items are crammed on one line.
+align-content (unlocked when flex-wrap is set to wrap)
+
+gap allows gaps between each item.
+
+flex-grow: 1; can be used on an item to utilize the remaining flex space not being used.
+
+flex-shrink is used to determine how fast an item shrinks in comparison to the other items.
+
+flex-basis allows to override -- very niche
+
+align-self allows to override the align-items should you want an individual items to be different. 
+
+order allows you to rewrite the order the items are laid out. --very niche
