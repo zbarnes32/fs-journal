@@ -28,13 +28,13 @@
     > People are drawn to visually appealing sites. Besides the color psychology being essential to a webpage's design, other factors like simplicity, professionalism, ease of use, and load time play a big factor on a user's experience. A great user experience generally leads to increase engagement on that website. 
 
 08. What is the purpose of ***wireframing***?
-    > | ANSWER HERE |
+    > Wireframing helps create an initial gameplan of the layout of the webpage. 
 
 09. Do you think wireframes are worth the time, energy, and effort that they require? Why or Why not?
-    > | ANSWER HERE |
+    > Yes, I think they are worth the time because it can help establish the basic structure of a webpage before starting to actually code. 
 
 10. Define the display `:flex property:`
-    > | ANSWER HERE |
+    > display: flex; displays an element as a flex container, which allows adjustments to be made on the x-axis (unless the flex-direction is switched to column).
 
 11. What `CSS` properties affect the size of a box model?
     > The box model is composed of the content, padding, border, and margin.
