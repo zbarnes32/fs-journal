@@ -1,15 +1,15 @@
 # Intro to JavaScript
 01. Which keywords are used to declare a variable in JavaScript?
 
-    > | ANSWER HERE |
+    > const, let, and var
 
 02. What is the definition of a function?
 
-    > | ANSWER HERE |
+    > A function is a reuseable block of code designed to perform a certain task.
 
 03. What are the `SOLID` principles?
 
-    > | ANSWER HERE |
+    > Single-responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion
 
 04. Given this array: How could you remove the `pineapple`?
 
@@ -17,7 +17,7 @@
     let fruit = ['apple', 'banana', 'pineapple', 'orange', 'strawberry']
     ```
 
-    > | ANSWER HERE |
+    > splice(2)
 
 05. Given these two objects: How could you add each to the others friends arrays?
 
