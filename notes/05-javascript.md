@@ -61,3 +61,30 @@ Looping is great for searching through an array.
 .toFixed() will have the decimals out to a certain point 
 For example: total.toFixed(2) would allow the number to round to the 2nd decimal. 
 
+
+## Wednesday's Lecture Notes with Jeremy
+// Gives a single value back when callback function returns true.
+
+.find() will call every item in the array --> .find() is considered a callback function. <-- .find() predicate. Use intelliscene on vsCode for more information.
+
+anonymous function -->  (()=>{}) or considered arrow function
+
+// Gives an array back of items that match statement in callback 
+.filter()
+
+.forEach() essentially a for loop. check out Jeremy's animal_murder_mystery for more notes.
+
+
+method is a function that exists on an object.
+
+
+**Generating a random number by whole number**
+Math.floor(Math.random() * array.length)
+
+.shift() removes the first element from an array and returns it.
+
+
+
+
+
+
