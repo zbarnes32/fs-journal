@@ -2,5 +2,5 @@
 
 * **[Scoreboard Repo](https://github.com/zbarnes32/scoreboard)**
 * **[Ice Cream Parlor Repo](https://github.com/zbarnes32/ice-cream-parlor)**
-* **[Repo](https://github.com/zbarnes32/<ASSIGNMENT_REPO>)**
+* **[Sports Bet Repo](https://github.com/zbarnes32/cw-sports-betting)**
 * **[Repo](https://github.com/zbarnes32/<ASSIGNMENT_REPO>)**
