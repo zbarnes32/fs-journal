@@ -84,7 +84,28 @@ Math.floor(Math.random() * array.length)
 .shift() removes the first element from an array and returns it.
 
 
+# Thursday's Lecture Notes with Jeremy
 
+Try to not style the <div class=col.12>, instead create a <div> inside of the col-12. 
 
+In HTML, you can use the marquee tag to make elements inside move. 
 
+in CSS, you can use user-select: none; to remove the ability to highlight on the webpage
+
+in HTML tags, using the role attribute on the button element helps readers identify it a button. 
+
+document.querySelector('.class-name') allows you to find an HTML class
+
+control + . on a
+
+the forEach() just performs and action, it doesn't return a value.
+
+setInterval(what do you want to do, how often do you want to do it)
+Example: 
+setInterval(() => { console.log('running interval')}, 1000)
+would console.log the message every second. 
+
+Example: 
+setInterval(decreaseAnimalsHunger, 1000)
+NOTE: Just put the instructions of the function, not calling the function itself.
 
