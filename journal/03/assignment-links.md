@@ -1,6 +1,6 @@
 ## Afternoon Assignment Links
 
 * **[Game Night Repo](https://github.com/zbarnes32/game-night)**
-* **[Repo](https://github.com/zbarnes32/<ASSIGNMENT_REPO>)**
+* **[Vending Machine Repo](https://github.com/zbarnes32/vendor-machine)**
 * **[Repo](https://github.com/zbarnes32/<ASSIGNMENT_REPO>)**
 * **[Repo](https://github.com/zbarnes32/<ASSIGNMENT_REPO>)**

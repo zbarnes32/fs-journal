@@ -73,3 +73,15 @@ TOOL: debugger is a great tool to use when debugging your code.
 AppState.on(event, function)
 
 
+
+# Wednesday's Lecture Notes with Jeremy
+
+## Application: Gregslist
+
+Bootstrap has some great options for forms that you can utilize and modify for your own use.
+
+**A handful of notes on Jeremy's repo**
+
+Handle local storage inside of the Service.js
+In util folder, the Store.js handles local storage.
+
