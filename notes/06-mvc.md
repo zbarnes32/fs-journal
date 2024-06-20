@@ -85,3 +85,29 @@ Bootstrap has some great options for forms that you can utilize and modify for y
 Handle local storage inside of the Service.js
 In util folder, the Store.js handles local storage.
 
+
+
+# Thursday's Lecture Notes with Mick
+
+If you make changes in Sass, you need to compile it to css. 
+Go to your terminal  and type --> npm run sass
+
+When working in MVC, consider starting with the model/data. 
+
+Cool feature: selectable
+
+When trying to use local storage: 
+
+saveCaseFiles() {
+    saveState('', AppState.caseFiles)
+}
+
+loadCaseFiles() {
+    AppState.caseFiles = loadState('', [Class])
+    
+}
+
+
+
+
+
