@@ -53,3 +53,42 @@ catch will alert that
 mcv-auth 
 
 ### Environment Variables
+
+* Notes during Gregslist Lecture Example
+
+How Jeremy likes to start a project with APIs, he likes to see if he can request and received data from the API first. 
+
+1. Created controller (and changed router config)
+2. CodeWorks Sandbox API (sandbox.codeworksacademy.com)
+    A. A list of endpoints that students can use. 
+3. Create a service (that will actually get the data)
+    A. Use a try/catch when getting data from API
+    B. In service, use api.get('url endpoint (not the baseURL)')
+4. Created model
+5. Create empty array inside of the AppState with a type of data
+    A. Example: @type {Car[]}
+6. Create a variable for the response.data inside of the correct method inside of Service. 
+7. Stub out template and added in model
+8. Create draw method inside of controller
+9. CREATE --> create form method in the controller
+    A. create form data method inside of service
+    B. IMPORTANT: when adding to api, use post. 
+            * Look at Jeremy's note
+        I. Example: const response = api.post('api/cars', dataFromForm)
+    C. Need to have authorization in order to post to api
+        II. Inside of Environment Variables, need to set domain, audience, and clientId
+
+(More notes on Jeremy's repo - gregslist_async)
+
+
+
+
+
+
+* HTTP Methods 
+C --> Create --> POST
+R --> Read --> GET
+U --> Update --> PUT
+D --> Delete --> DELETE
+
+
