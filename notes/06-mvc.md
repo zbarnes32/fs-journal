@@ -154,6 +154,17 @@ async getMonsters() {
 try will attempt to run the code inside of the first codeblock
 catch will alert that 
 
+# Tuesday June 25th: Lecture Notes with Jeremy
+## APIs 
+
+mcv-auth 
+
+### Environment Variables
+
+
+
+
+
 
 
 

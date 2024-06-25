@@ -1,6 +1,6 @@
 ## Afternoon Assignment Links
 
-* **[Repo](https://github.com/zbarnes32/<ASSIGNMENT_REPO>)**
+* **[Trivia Repo](https://github.com/zbarnes32/trivia)**
 * **[Repo](https://github.com/zbarnes32/<ASSIGNMENT_REPO>)**
 * **[Repo](https://github.com/zbarnes32/<ASSIGNMENT_REPO>)**
 * **[Repo](https://github.com/zbarnes32/<ASSIGNMENT_REPO>)**
