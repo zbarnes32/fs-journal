@@ -80,15 +80,15 @@ How Jeremy likes to start a project with APIs, he likes to see if he can request
 
 (More notes on Jeremy's repo - gregslist_async)
 
-
-
-
-
-
 * HTTP Methods 
 C --> Create --> POST
 R --> Read --> GET
 U --> Update --> PUT
 D --> Delete --> DELETE
+
+# Wednesday June 26th: Lecture Notes with Jeremy
+## DND Spells (Combining DND Api & Codeworks sandbox Api)
+
+A lot of notes on Jeremy's DND repo. Tried to solely focus on the lecture without worrying about typing out notes. 
 
 
