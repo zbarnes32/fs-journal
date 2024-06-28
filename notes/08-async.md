@@ -91,4 +91,11 @@ D --> Delete --> DELETE
 
 A lot of notes on Jeremy's DND repo. Tried to solely focus on the lecture without worrying about typing out notes. 
 
+# Thursday June 27th: Lecture Notes with Mick
+
+NASA api: https://api.nasa.gov
+
+Query Parameters
+
+
 
