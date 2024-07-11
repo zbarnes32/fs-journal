@@ -77,3 +77,17 @@ Broadway Babies is a many-to-many
 17. Utilized the AccountController to create a getAccountShows method (updated the router).
 
 
+# Thursday's Lecture Notes with Jeremy
+## Inspire API
+
+* Utilize Jeremy's commit history for order
+
+Remember to use .use(Auth0Provider.) for request that require the user to be logged in. 
+For example, to do's or creating a quote/picture
+
+To get two bearer tokens for testing, you need to login again using an incognito tab or different internet explorer.
+
+**Ask Jeremy about getTodoById method**
+Question: Why does .findById(todoId) work when it just returns one. 
+
+?? - nullish coalescing operator, checks if the left-hand side is null or undefined, and defaults to the left if that is so ..... 
