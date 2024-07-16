@@ -45,3 +45,38 @@ computed values can calculate things for us and return them, and if...
 onMounted is a lifecycle hook that will execute a callback function when this component (page) is rendered to the DOM. 
 
 * Make sure Vue - Official in installed in VS Code.
+
+
+# Tuesday's Lecture Notes with Mick
+## Using the TMDB API to create a movie review webpage (vueflix)
+
+1. Delete unnecessary items in the HomePage.vue
+2. Created a MoviesService.js file
+    A. Created a discoverMovies() method. (making a get request)
+    B. Imported axios
+    C. used axios.create to use the TMDB api
+3. In the HomePage.vue file to create an onMounted inside of the script tag.
+    A. Created the discoverMovies() method using a try/catch.
+    NOTE: onMounted in the HomePage.vue file allows to load on page load
+4. In the axios.create, update the api key
+5. Created a Movie.js model and used the object from TMDB to create the model.
+    A. Remember to use the VueDevTools
+6. Use the computed vue keyword to get the AppState data. 
+    A. Test to see if you get the data on the page
+7. Inside of the template section, start stubbing out the HTML
+    A. Use {{}}, to get the data as string.
+    NOTE: {{}} is used inside of the tags whereas :bind (used in an attribute).
+8. Moving the card template into its own component file
+    A. defineProps({key : value})
+9. Create the DiscoverButtons component
+    A. Added functionality to previous/next
+10. Create the SearchMovieBar component
+    NOTE: v-model is a 2-Way data bind
+    NOTE: when working with vue's methods, they wrap the value in large reactive objects. These values need to be accessed here in the script if you want their value. 
+REVIEW: Went in depth on the SearchMovieBar and the previous/next buttons
+11. Created a MovieDetailsPage.vue page
+12. Updated the router.js
+    NOTE: RouterLink is a built in function that... (:to={name: 'name of route'})
+
+
+Note: pages are responsible for "getting" the data they want to display
