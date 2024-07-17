@@ -80,3 +80,10 @@ REVIEW: Went in depth on the SearchMovieBar and the previous/next buttons
 
 
 Note: pages are responsible for "getting" the data they want to display
+
+# Wednesday Lecture Notes with Jeremy
+## Gregslist Vue with Auth
+
+Look at Jeremy commit history for order of operation
+
+v-model allows two-way data binding
