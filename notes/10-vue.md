@@ -87,3 +87,8 @@ Note: pages are responsible for "getting" the data they want to display
 Look at Jeremy commit history for order of operation
 
 v-model allows two-way data binding
+
+# Thursday's Lecture Notes with Jeremy
+* Look at Jeremy commit history for direction
+
+Prop allows you to send data to a child from a project
