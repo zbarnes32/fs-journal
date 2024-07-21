@@ -11,7 +11,27 @@
     + List Rendering: https://vuejs.org/guide/essentials/list.html
     + Lifecycle Diagram: https://vuejs.org/guide/essentials/lifecycle.html#lifecycle-diagram
 
+Single-File Component (SFC) - A reuseable self-contained block of code that encapsulates HTML, CSS, and JavaScript that belong together, written inside a .vue file.
 
+Declarative Rendering - Using a template syntax that extends HTML, we can describe how the HTML should look based on JavaScript state. What the state changes, the HTML updates automatically.
+
+Objects created from reactive() are JavaScript Proxies that work just like normal objects
+
+ref() can take any value types and create an object that exposes the inner value under a .value property. 
+
+In vue, mustaches are only used for text interpolation. To bind an attribute to a dynamic value, we can use the v-bind directive.
+
+A directive is a special attribute that starts with the v- prefix (shorthand is :).
+
+We can listen to DOM events using the v-on directive (shorthand is @).
+
+Using v-bind and v-on together, we can create two-way bindings on form input elements. To simplify two-way bindings, Vue provides a directive, v-model.
+
+We can use the v-if directive to conditionally render an element (truthy / falsy).
+
+We can use v-for directive to render a list of elements based on a source array.
+
+You can add toggle functionality to each todo by adding a "done" property to each todo object, and using v-model to bind it to a checkbox. 
 
 
 
