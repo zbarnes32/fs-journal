@@ -112,3 +112,30 @@ v-model allows two-way data binding
 * Look at Jeremy commit history for direction
 
 Prop allows you to send data to a child from a project
+
+
+
+# Full Stack Week
+
+# Monday's Lecture Notes with Mick
+## Postit
+
+1. Create an application with two templates (client / server)
+2. Update both the env.js and .env files
+    A. This is why we use baseUrl as localhost:3000
+    B. You can test if the client and server is linked together by logging in on the client side and look at the network tab. 
+3. TIP: Go back and forth between front-end and back-end, with a focus on back-end first. For example, if you are working on bringing photos to the page, first work on the back-end before working on the front-end. Although you COULD complete the full back-end first, it is more efficient to work on one section at a time. 
+4. Delete unnecessary files
+(Follow along with Postman tests)
+5. Create a new Schema in Album.js file within the server folder. 
+6. Update DbContext.js to have the new Album schema
+7. Create a AlbumsService.js file
+8. Create a AlbumsController.js
+9. Create the createAlbum method in the service and controller. 
+10. Create the getAllAlbums in the Controller/Service
+11. Create the getAlbumById in the Controller/Service
+12. Create the achievedAlbumById in the Controller/Service
+13. Jump to the front end and create Album.js model and AlbumsService.js
+14. Stubbed out a HomePage.vue
+15. Created the AlbumArticle.vue component
+16. Created AlbumDetailsPage.vue page
