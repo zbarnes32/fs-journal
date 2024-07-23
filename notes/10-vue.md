@@ -139,3 +139,36 @@ Prop allows you to send data to a child from a project
 14. Stubbed out a HomePage.vue
 15. Created the AlbumArticle.vue component
 16. Created AlbumDetailsPage.vue page
+..... (Trying to fix checkpoint issues while Mick was styling the site)
+
+# Tuesday's Lecture Notes with Mick
+## Continuation of Postit
+
+NOTE: useRoute() is where you are located in the app (think url)
+        useRouter() is the vehicle that moves you from place to place.
+
+17. After styling, jumped back to the server and created a Schema for the picture in Picture.js
+18. Created Picture Controller and Service files. 
+NOTE: Remember to use Postman for suggested order and testing
+19. Created CreatePictureForm.vue and built the form inside the template tags
+
+NOTE: fab stands for floating action button
+NOTE: The masonry class is what Mick used to make the layout of the pictures in the album. 
+
+20. Created PicturesService.js file
+21. Created Picture model in the Picture.js
+22. Created getAlbumPictures() function inside the AlbumDetailsPage.vue
+
+Many-to-Many
+
+23. created AlbumMember.js with a AlbumMemberSchema
+24. Update dbContext file
+25. created createAlbumMember() in controller and service
+26. created get AlbumMembersByAlbumId() function in AlbumController.js and AlbumMembersService.js
+...
+27. Jump to the client side
+28. create getAlbumMembersForAlbum() in the AlbumDetailsPage.vue and AlbumMemberService. 
+29. Updated the AppState
+30. Created a getAccountAlbumMemberAlbums function in the AccountPage.vue and AlbumMembersService.js
+31. Update the AppState for accountAlbums
+REVIEW: Confused when Mick explained the  AlbumMemberAlbum and AlbumMemberProfile
