@@ -172,3 +172,10 @@ Many-to-Many
 30. Created a getAccountAlbumMemberAlbums function in the AccountPage.vue and AlbumMembersService.js
 31. Update the AppState for accountAlbums
 REVIEW: Confused when Mick explained the  AlbumMemberAlbum and AlbumMemberProfile
+
+# Wednesday's Lecture Notes with Mick
+## Stetch Goals for Postit
+
+32. memberCount (in albumSchema virtual) - instead of a JustOne, use "count" to just count
+33. You can nest .populate() Example in AlbumMembersService.js line 19
+34. ...
