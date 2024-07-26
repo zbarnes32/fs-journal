@@ -22,16 +22,16 @@
 
 6. What is the package.json file used for?
 
-  > | ANSWER HERE |
+  > The package.json file is the manifest file of any Node.js project and contains the metadata of the project.
 
 7. Which Vue attributes(directives) could you use to conditionally render elements on a page?
 
-  > | ANSWER HERE |
+  > v-if and v-else. I believe that there is also a v-else-if.
 
 8. What is the purpose of the `key` attribute when using `v-for` on an element?
 
-  > | ANSWER HERE |
+  > It is so Vue can tell the elements apart properly.
 
 9. What is the `<slot>` element and what is it used for?
 
-  > | ANSWER HERE |
+  > The <slot> element is a slot outlet that indicates where the parent-provided slot content should be rendered. In some cases, we may want to pass a template fragment to a child component, and let the child component render the fragment within its own template.
