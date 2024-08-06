@@ -1,11 +1,11 @@
 # Working in a Professional Environment
 01. What is Inheritance?
 
-> | ANSWER HERE |
+> Inheritance is where you have a hierarchy of components where a child component inherits the properties and behaviors from its parent component.
 
 02. What is the `Singleton` design pattern?
 
-> | ANSWER HERE |
+> A singleton is a class that allows only a single instance of itself to be created and usually gives simple access to that instance.
 
 03. What is the `Observer` design pattern?
 
