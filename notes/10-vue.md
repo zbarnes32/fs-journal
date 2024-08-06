@@ -179,3 +179,15 @@ REVIEW: Confused when Mick explained the  AlbumMemberAlbum and AlbumMemberProfil
 32. memberCount (in albumSchema virtual) - instead of a JustOne, use "count" to just count
 33. You can nest .populate() Example in AlbumMembersService.js line 19
 34. ...
+
+
+
+
+# Quick Lecture with Mick (showing how to do file uploading)
+
+In .env, create AWS_TOKEN_ID, AWS_TOKEN_SECRET, AWS_S3_BUCKET, and AWS_REGION.
+
+NOTE: There is a video recording on how to add file uploading to our project. 
+
+
+
