@@ -191,3 +191,15 @@ NOTE: There is a video recording on how to add file uploading to our project.
 
 
 
+# Quick Lecture with Jeremy (Web Sockets)
+NOTE: There is a video recording on web sockets
+
+
+Two-way connection
+
+env.js turn useSockets = true
+
+Look into socket.io (they have a great example on how to make a chat room with Node.js)
+
+
+
