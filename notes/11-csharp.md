@@ -90,4 +90,25 @@ To update a row, type UPDATE following the table name, with SET column
 
 
 
+# Tuesday Lecture Notes with Jeremy
+## Gregslist_dotnet
+** NOTE: Although this is a full stack application, we are focusing on the back end. 
+
+1. Go to appsettings.Development.json to fill out information.
+2. Fill out env.js file
+3. Run and Debug
+4. Make sure to change the baseURL in the env.js file (make sure to check the network tab on the browser to see if it is working).
+5. Create a table in the dbSetup.sql file
+6. Create a model file
+    ** NOTE: this is similar to setting up a schema. 
+7. Create a controller file
+    ** NOTE: Remember to add a namespace at the top
+8. Create a service file
+9. Create a repository file
+10. Update the Startup.cs file with services.AddScoped<CarsService>(); and services.AddScoped<CarsRepository>();
+11.  Create a profile model
+
+NOTE: Ended up watching the rest of the lecture instead of taking notes. Make sure to follow Jeremy's commit history for more information.
+
+
 
