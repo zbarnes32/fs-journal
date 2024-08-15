@@ -147,7 +147,7 @@ NOTE: Ended up watching the rest of the lecture instead of taking notes. Make su
     - Create in controller
     - Create in service
     - Create in repository
-16. Update the startup.js
+16. Update the startup.cs
 17. Create function GetPicturesInAlbum
     - Create in AlbumsController
     - Create in PicturesService
@@ -157,6 +157,41 @@ NOTE: Ended up watching the rest of the lecture instead of taking notes. Make su
     - Create in PicturesService
     - Create in PicturesRepository
 
+# Thursday's Lecture Notes with Jeremy
+## Picking up where we left off on PostIt
 
+19. Create albumMembers table in dbSetup.sql
+    ** NOTE: Jeremy showed off the Unique constrant that limits the collaboration. 
+20. Create an AlbumMember model, repository, service, and controller.
+21. Create function CreateAlbumMember
+    - Create in AlbumMembersController
+    - Create in AlbumMembersService
+    - Create in AlbumMembersRepository
+    - Update the startup.cs
+22. Create function GetAlbumMembersProfilesByAlbumId
+    - Create in AlbumsController
+    - Create in AlbumMembersService
+    - 
+23. Create the AlbumMemberProfile class in the AlbumMember model
 
+    ```cs
+    
+    ```
+    ** REVIEW: Look at Jeremy's commit with the 🧠🧂 message for great example of many-to-many. 
 
+24. Create function GetAlbumMembersAlbumsByAccountId
+    - Create in AccountController
+    - Create in AlbumMembersService
+    - Create in AlbumMembersRepository
+25. Create function ...
+    - Update the AlbumMember model
+    - 
+
+** REVIEW: Look at Jeremy's commits for great examples for the many-to-many examples.
+
+** NOTE: Cloudflare is a great spot to buy a domain. 
+
+26. Create function DestroyAlbumMember
+    - Create in AlbumMemberController
+    - Create in AlbumMemberService
+    - Create in AlbumMemberRepository
