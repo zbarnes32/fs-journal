@@ -112,3 +112,51 @@ NOTE: Ended up watching the rest of the lecture instead of taking notes. Make su
 
 
 
+
+# Wednesday's Lecture Notes with Jeremy
+## Follow Along with PostIt
+
+1. Fill out appsettings.Development.json & env.js (If you can log in, it's working)
+2. Look at Postman test to see where we should start (Album).
+3. Create an album table in dbSetup.sql
+    ** NOTE: Remember to put the id as the first column.
+4. Create the model.cs for albums
+    ** NOTE: typing prop and then hitting enter will a line for the property type.
+    ** NOTE: Make sure to add the data validation
+5. Create a repository, service, and controller. 
+    ** NOTE: Keeping it in that order will help with with error handling that would happen with creating it as controller, service, repository since the controller talks to the service, and the service talks to the repository. 
+6. Update the Startup.cs file. 
+7. Start filling out the controller, service, and repository for createAlbum.
+8. Add a Profile class in Account.cs and add a Creator in the album model.
+9. Create function GetAllAlbums()
+    - Create in controller
+    - Create in service
+    - Create in repository
+10. Refactored by created JoinCreator()
+11. Create function GetAlbumById()
+    - Create in controller
+    - Create in service
+    - Create in repository
+12. Create function achieveAlbum()
+    - Create in controller
+    - Create in service 
+    - Create in repository
+13. Create a picture table in dbSetup.sql
+14. Create a repository, service, and controller for the pictures.
+15. Create function CreatePicture()
+    - Create in controller
+    - Create in service
+    - Create in repository
+16. Update the startup.js
+17. Create function GetPicturesInAlbum
+    - Create in AlbumsController
+    - Create in PicturesService
+    - Create in PicturesRepository
+18. Create function destroyPicture
+    - Create in PicturesController
+    - Create in PicturesService
+    - Create in PicturesRepository
+
+
+
+
