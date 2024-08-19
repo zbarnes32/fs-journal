@@ -1,23 +1,23 @@
 # A bit more CSharp and SQL
 1. What does ***inheritance*** accomplish for us in C#?
 
-  > | ANSWER HERE |
+  > Inheritance allows us to define a new class based on an existing class.
 
 2. How does ***member inheritance*** work in C#? Does a `Class` inherit all members of the base `Class`?
 
-  > | ANSWER HERE |
+  > C# only supports single inheritance meaning that can only inherit the direct parent. However, since it is transitive, the direct child can inherit from grandparents, as long as it was inherited by the parent. For example, type C can't inherit from type A directly, however, if type B inherited from type A, then type C has access to properties from type A. Static constructors, Instance construtors, and Finalizers are not able to be inherited.
 
 3. How does ***accessibility*** affect inheritance?
 
-  > | ANSWER HERE |
+  > Accessibility determines whether the class's members are visible or not. 
 
 4. What is the difference between a `PRIMARY KEY` and a `FOREIGN KEY`
 
-  > | ANSWER HERE |
+  > A primary key is an unique identifier for each record of a table. The foreign key helps establish a relationship between tables by referencing the primary key of another table.
 
 5. What is an ***alias***?
 
-  > | ANSWER HERE |
+  > 
 
 6. Demonstrate how you would query a join statement that would get all of a doctors patients from the following collections:
 

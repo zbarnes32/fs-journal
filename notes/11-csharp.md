@@ -195,3 +195,37 @@ NOTE: Ended up watching the rest of the lecture instead of taking notes. Make su
     - Create in AlbumMemberController
     - Create in AlbumMemberService
     - Create in AlbumMemberRepository
+
+
+
+
+
+# Monday's Lecture Notes with Jeremy
+## Follow Along with insta_cult
+
+
+1. Set up env files (Make sure you can log in on localhost:8080)
+2. Create table Cults in dbSetup.sql
+3. Create a Cult model (Cult.cs)
+4. Scaffold out Repository, Service, and Controller for cults.
+    **NOTE: You can fill out on the Accounts Repository, Service, and Controller and move them to their own files for a faster process.
+5. Create function CreateCult
+6. Joining the Accounts table to the Cults table
+    **NOTE: Make sure to update for a Profile and Leader
+7. Create function GetAllCults
+    **NOTE: Creating JoinLeader will make things faster later on. 
+8. Create function GetCultById
+
+Moving to the client side
+
+9. Update the HomePage
+10. Create a CultsPages.vue (Use a router link around the button on the home page)
+11. Create function getAllCults (Fill out page and service)
+12. Create a model for cults
+13. Update AppState to have cults as an empty array
+14. Finish the function in the service. 
+15. Create a cult card component
+16. Style up the cult card
+17. Create a modal component for creating a cult (Make sure to link the modal correctly).
+18. 
+
