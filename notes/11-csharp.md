@@ -227,5 +227,23 @@ Moving to the client side
 15. Create a cult card component
 16. Style up the cult card
 17. Create a modal component for creating a cult (Make sure to link the modal correctly).
-18. 
+
+
+# Tuesday's Lecture Notes with Jeremy
+## Continuing with insta_cult
+
+Jumping back to the server side
+
+18. Create the CultMember model
+19. Scaffold the CultMember Repository, Service, and Controller (Remember to update the dependencies in Startup.cs).
+20. Create CreateCultMember function
+21. Flatten Model to add Cultist
+22. Create function GetCultistByCultId
+    - CultsController
+    - CultMemberService
+    - CultMembersRepository
+
+Watched the rest of the lecture. Look at Jeremy's commit log for more information. 
+
+
 
